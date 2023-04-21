@@ -29,7 +29,7 @@ from: markdown+emoji
 
 ## Qui sommes nous ?
 
-- DIIT (Division Innovation et Instruction Technique)
+- DIIT (Division Innovation et Instruction Technique) & SSP Lab
 
 - développement du projet de plateforme datascience [Onyxia](https://github.com/InseeFrLab/onyxia) et gestion de l'instance [SSP Cloud](https://datalab.sspcloud.fr)
 
