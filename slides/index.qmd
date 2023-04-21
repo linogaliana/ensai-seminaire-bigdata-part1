@@ -1,0 +1,115 @@
+---
+title: Titre
+subtitle: |
+  **[Sous titre]{.orange}**
+author: Romain Avouac et [Lino Galiana](https://www.linogaliana.fr/)
+# date: 
+slide-number: true
+footer: |
+  Bonnes pratiques pour les projets statistiques
+# uncomment for French presentations:
+lang: fr-FR
+# for blind readers:
+slide-tone: false
+# for @olevitt:
+chalkboard: # press the B key to toggle chalkboard
+  theme: whiteboard
+# uncomment to use the multiplex mode:
+#multiplex: true
+format:
+  # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
+  onyxia-revealjs:
+  #onyxia-dark-revealjs:
+    output-file: light.html
+controls: true
+css: custom.css
+from: markdown+emoji
+---
+
+
+## Qui sommes nous ?
+
+- DIIT (Division Innovation et Instruction Technique)
+
+- développement du projet de plateforme datascience [Onyxia](https://github.com/InseeFrLab/onyxia) et gestion de l'instance [SSP Cloud](https://datalab.sspcloud.fr)
+
+- accompagnement de projets open-data
+
+- diffusion des bonnes pratiques
+
+<innovation@insee.fr>, <romain.avouac@insee.fr>
+
+
+# Présentation d'Onyxia
+
+## Pourquoi Onyxia ?
+
+- L'infrastructure est souvent un **frein à l'innovation**
+
+- **Mutualisation** d'une infrastructure, de services et de connaissances
+
+## Grands principes
+
+- Un service de **stockage distribué** de données sous forme d'**objets** (S3)
+
+- Une infrastructure cloud-native, basée sur un **orchestrateur de conteneurs** (Kubernetes)
+
+- Un catalogue de services couvrant l'ensemble du **cycle de vie** des projets de data science, du libre service à la **mise en production**
+
+## Catalogue de services
+
+![](img/catalogue.png)
+
+## Le SSP Cloud
+
+- **Instance** du projet Onyxia hébergée à l'Insee
+
+- Des **ressources** dimensionnées pour la data science (RAM, CPU, GPU)
+
+- Une plateforme qui vous est **ouverte** !
+
+- **Auto-formation** aux grands principes des architectures modernes de data science
+
+# Le stockage objet
+
+## Fonctionnement
+
+![](img/minio.png)
+
+## Avantages
+
+- **Stockage cloud** : élastique et donc plus économique
+
+- **Portabilité** : les objets sont mis à disposition via une API web
+
+- **Découplage** du stockage et du moteur de calcul
+
+# L'orchestration de conteneurs
+
+## Pourquoi les conteneurs ?
+
+- **Objectif** : encapsuler une application et tout ce dont elle a besoin afin de la **déployer** facilement
+
+![](img/server-vm-container.png)
+
+## Avantage des conteneurs
+
+- **Légèreté** : ils n'incluent que le strict nécessaire au fonctionnement de l'application
+
+- **Portabilité** : il est très facile de passer d'un environnement d'exécution à un autre
+
+- **Reproductibilité** : l'application s'exécute de la même manière quel que soit l'environnement sur lequel il est déployé
+
+## Pourquoi l'orchestration ?
+
+- Déploiements **reproductibles** et **automatisés**
+
+- Adapter les ressources (**scaler**) selon les besoins
+
+- **Monitoring** de l'état de santé des applications
+
+## Fonctionnement de Kubernetes
+
+![](img/kubernetes-archi.png)
+
+# Démonstration
