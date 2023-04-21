@@ -1,12 +1,12 @@
 ---
-title: Titre
+title: La plateforme Onyxia
 subtitle: |
-  **[Sous titre]{.orange}**
+  **[Un environnement de data science à l'état de l'art]{.orange}**
 author: Romain Avouac et [Lino Galiana](https://www.linogaliana.fr/)
 # date: 
 slide-number: true
 footer: |
-  Bonnes pratiques pour les projets statistiques
+  Présentation à l'ENSAI
 # uncomment for French presentations:
 lang: fr-FR
 # for blind readers:
