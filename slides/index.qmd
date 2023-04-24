@@ -29,7 +29,9 @@ from: markdown+emoji
 
 ## Qui sommes nous ?
 
-- DIIT (Division Innovation et Instruction Technique) & SSP Lab
+### La DIIT
+
+- DIIT (Division Innovation et Instruction Technique)
 
 - développement du projet de plateforme datascience [Onyxia](https://github.com/InseeFrLab/onyxia) et gestion de l'instance [SSP Cloud](https://datalab.sspcloud.fr)
 
@@ -38,6 +40,21 @@ from: markdown+emoji
 - diffusion des bonnes pratiques
 
 <innovation@insee.fr>, <romain.avouac@insee.fr>
+
+
+## Qui sommes nous ?
+
+### Le SSP Lab
+
+- Lab _data science_ de l'INSEE
+
+- Exploration nouvelles sources, nouvelles méthodes, etc.
+
+- Travail en lien avec équipes métiers
+
+- Réseau data scientists de la statistique publique: [https://ssphub.netlify.app/](https://ssphub.netlify.app/)
+
+<lino.galiana@insee.fr>, <ssphub-contact@insee.fr>
 
 
 # Présentation d'Onyxia
@@ -69,6 +86,18 @@ from: markdown+emoji
 - Une plateforme qui vous est **ouverte** !
 
 - **Auto-formation** aux grands principes des architectures modernes de data science
+
+## Le SSP Cloud
+
+Principe de base:
+
+![](https://ensae-reproductibilite.github.io/website/workflow2.png)
+
+## Le SSP Cloud
+
+[Pour aller plus loin](https://ssphub.netlify.app/post/onyxia/):
+
+![](img/ssphub.png)
 
 # Le stockage objet
 
@@ -112,4 +141,4 @@ from: markdown+emoji
 
 ![](img/kubernetes-archi.png)
 
-# Démonstration
+# Démonstration 🚀
